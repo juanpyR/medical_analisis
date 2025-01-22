@@ -3,4 +3,3 @@ google-ai-generativelanguage
 google-api-core
 google-api-python-client
 google-auth
-protobuf==3.20.3
