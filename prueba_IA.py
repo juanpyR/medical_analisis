@@ -3,7 +3,7 @@ from pathlib import Path
 import google.generativeai as genai
 
 
-api = 'AIzaSyAJvyI8VLdVlkaMoeNw4nSWt253zpLWbgw'
+api = st.secrets['auth_api']
 
 # configure genai with api key
 
