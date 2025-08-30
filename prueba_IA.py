@@ -8,7 +8,7 @@ from fpdf import FPDF
 # Configurar API Gemini
 # ==============================
 api = st.secrets['auth_api']   #reemplaza con tu API de Gemini
-client = genai.Client(api_key=api_key)
+client = genai.Client(api_key=api)
 
 # ==============================
 # Diccionario de textos bilingüe
@@ -196,3 +196,4 @@ if st.button(t["generate_individual"]):
             display_analysis(response.text, [label])
     else:
         st.warning("⚠️ No images provided.")
+
