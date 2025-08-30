@@ -4,6 +4,12 @@
 
 ---
 
+## Vista previa de la app
+
+![Vista previa de VitalImage Analysis](analisis_medico.png)
+
+---
+
 ## Funcionalidades
 
 - Subir una o más imágenes médicas (.png, .jpg, .jpeg).
