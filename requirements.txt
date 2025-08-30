@@ -1,5 +1,9 @@
-google-generativeai==0.8.3
-google-ai-generativelanguage
-google-api-core
-google-api-python-client
-google-auth
+google-genai==1.31.0
+google-generativeai==0.8.5
+google-ai-generativelanguage==0.6.15
+google-api-core==2.25.1
+google-api-python-client==2.179.0
+google-auth==2.40.3
+streamlit==1.49.0
+requests==2.32.5
+fpdf==1.7.2
